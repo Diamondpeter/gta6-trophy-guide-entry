@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-title">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Platinum</h1>
+    <p class="subtitle">The offline guide &amp; tracker for every GTA VI trophy — checklist, roadmap, missables and a guide to each, with its sources.</p>
+  </div>
+  <div class="progress-card" id="progressCard">
+    <p class="big-count"><span id="earnedCount">0</span><span class="of"> / 55</span></p>
+    <p class="progress-label" id="progressLabel">earned</p>
+    <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="grade-counts" id="gradeCounts"></p>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="Guide sections">
+  <a href="#/checklist" data-tab="checklist">Checklist</a>
+  <a href="#/roadmap" data-tab="roadmap">Roadmap</a>
+  <a href="#/missables" data-tab="missables">Missables</a>
+  <a href="#/planner" data-tab="planner">Next up</a>
+  <a href="#/save" data-tab="save">Save &amp; export</a>
+</nav>
+
+<div class="toolbar" id="toolbar">
+  <label class="search">Search <input id="search" type="search" placeholder="Trophy name or word…" autocomplete="off"></label>
+  <label>Kind
+    <select id="kindFilter">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="characters">Side characters</option>
+      <option value="collectibles">Collectibles</option>
+      <option value="activities">Activities</option>
+      <option value="exploration">Exploration</option>
+      <option value="crime">Crime</option>
+      <option value="combat">Combat</option>
+      <option value="money">Money</option>
+      <option value="platinum">Platinum</option>
+      <option value="missable">Missable</option>
+    </select>
+  </label>
+  <label>Grade
+    <select id="gradeFilter">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label class="check"><input id="earnedOnly" type="checkbox"> Earned only</label>
+  <label class="check"><input id="spoilerSafe" type="checkbox"> Spoiler-safe: hide story trophies until earned</label>
+</div>
+<p class="demo-note" id="demoNote" hidden>Demo progress — 13 trophies pre-earned to show the tracker. Your saved progress is untouched; close this tab or open without <code>?demo=1</code> to see your own.</p>
+
+<main id="main">
+  <section class="layout" id="checklistLayout">
+    <div class="list-wrap">
+      <p class="list-meta" id="listMeta"></p>
+      <ul class="trophy-list" id="trophyList"></ul>
+    </div>
+    <aside class="detail" id="detail" aria-live="polite"></aside>
+  </section>
+  <section class="page" id="page" hidden></section>
+</main>
+
+<footer class="foot">
+  <p><strong>Sources.</strong> Trophy names, descriptions and grades are the official list as published on <a href="https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/">Exophase</a> and <a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi">PSNProfiles</a>. Every guide is written in our own words for this entry and cites its sources beside it; where no guide has pinned a trigger down yet, the guide says so. No Rockstar logo or official artwork is used anywhere.</p>
+  <p>Works offline — this page loads nothing from the network. Progress is saved in this browser only (localStorage) and can be exported from the Save &amp; export tab. Difficulty, times and the missable warning follow <a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/">PowerPyx's trophy guide</a> and <a href="https://gta-zone.com/news/gta-6-trophies-achievements/">GTA Zone's trophy list</a>.</p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
