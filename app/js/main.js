@@ -13,6 +13,10 @@ import {
 } from './store.js';
 import { renderChecklist, renderMissables, renderPlanner, renderProgress, renderRoadmap, renderSave } from './views.js';
 
+// The missable trophy's id: the demo opens on its guide, so the first screen
+// shows the warning, the guide and its sources at once.
+const MISSABLE_ID = 28;
+
 const state = {
   trophies: [],
   earned: new Set(),
@@ -22,7 +26,7 @@ const state = {
   grade: 'all',
   earnedOnly: false,
   spoilerSafe: false,
-  selectedId: 28,
+  selectedId: MISSABLE_ID,
   tab: 'checklist',
   demo: false,
 };
@@ -139,9 +143,6 @@ async function boot() {
     state.earned = loadProgress();
     state.notes = loadNotes();
   }
-  // The demo opens on the missable trophy's guide so the first screen shows
-  // the warning, the guide and its sources at once.
-  if (state.demo && !state.earned.has(28)) state.selectedId = 14;
   wireToolbar();
   window.addEventListener('hashchange', () => {
     readHash();

@@ -3,7 +3,7 @@
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
  "counts": { "total": 55, "platinum": 1, "gold": 2, "silver": 6, "bronze": 46, "hidden": 28 },
- "sources_note": "Names, descriptions and grades are the official list as published on Exophase and PSNProfiles. Guides are written in our own words for this entry; where a step comes from another guide it is cited beside it, and where no guide has pinned a trigger down yet the guide says so instead of inventing one.",
+ "sources_note": "Names, descriptions and grades are the official list as published on Exophase and PSNProfiles. Guides are written in our own words for this entry; where a step comes from another guide it is cited beside it, and where no guide has pinned a trigger down yet the guide says so instead of inventing one. A trophy marked confirmed: false has no verified trigger yet.",
  "trophies": [
   {
    "id": 1,
@@ -14,7 +14,7 @@
    "kind": "platinum",
    "missable": false,
    "stage": 5,
-   "guide": "The platinum pops the moment the other 54 trophies are all earned — there is nothing extra to do for it. PowerPyx rates the whole set 4 out of 10 in difficulty and about 200 hours, with a single playthrough and no online trophies, so the road to this one is the roadmap in this guide: story first, then the 100% checklist, then cleanup.",
+   "guide": "There is nothing separate to do for the platinum: it unlocks the instant the other 54 trophies are all earned. PowerPyx rates the full set 4 out of 10 for difficulty and around 200 hours, with one playthrough and no online trophies, so follow this guide's roadmap — story first, the 100% checklist next, then cleanup — and this one takes care of itself.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -30,7 +30,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It unlocks when you finish Gone Fishing, the first main mission of Chapter 1 — just play the story and it pops on its own. PowerPyx lists it as the opening mission, so this is the first trophy most players will earn.",
+   "guide": "An automatic story trophy. Gone Fishing is the first main mission of Chapter 1, so finish it and this pops on its own — for most players it will be the first trophy of the set. PowerPyx lists it as the opening mission, and there is nothing to prepare or to miss.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -46,7 +46,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops when Chapter 1 ends — the trigger is the first mission of Chapter 2, What's in the Bag?, according to PowerPyx. Before you leave Chapter 1, do the one thing in this guide that can be missed: the meditation at Jason's house (see Positive Mental Attitude).",
+   "guide": "An automatic story trophy that pops as Chapter 1 ends — PowerPyx puts the trigger on the first mission of Chapter 2, What's in the Bag? Before you leave Chapter 1, do the one thing in this guide that can be missed: the meditation at Jason's house, covered under Positive Mental Attitude.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -62,7 +62,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops when Chapter 2 ends, on the first mission of Chapter 3, Welcome to Vice City, per PowerPyx. Chapter 2 is where you first get to switch between Jason and Lucia, which opens the partner trophies and several side questlines.",
+   "guide": "An automatic story trophy that pops when Chapter 2 ends, on the first mission of Chapter 3, Welcome to Vice City, according to PowerPyx. Chapter 2 is also where you first switch between Jason and Lucia, which opens the partner trophies and several side questlines.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -78,7 +78,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops when Chapter 3 ends, on the first two missions of Chapter 4, Ocean Beach and Another Life, per PowerPyx. Chapter 3 is where several side questlines open up — Andy, Randy and Tyrone all get marked during it — so take the optional missions as they appear.",
+   "guide": "An automatic story trophy that pops when Chapter 3 ends, on the first two missions of Chapter 4, Ocean Beach and Another Life, according to PowerPyx. Several side questlines open during Chapter 3 — Andy, Randy and Tyrone all get marked in it — so take the optional missions as they appear rather than racing past them.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -94,7 +94,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops when Chapter 4 ends, on its final main mission, Starting From Zero, per PowerPyx. By now the 100% checklist is in reach: progress you made during the story already counts toward it, even though the checklist itself only becomes visible after the story.",
+   "guide": "An automatic story trophy that pops when Chapter 4 ends, on its final main mission, Starting From Zero, according to PowerPyx. By this point the 100% checklist is nearly in reach: progress made during the story already counts toward it, even though the checklist itself only becomes visible after the story.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -110,7 +110,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed, and the only hidden gold on the list. It pops on the final main mission — PowerPyx places that mission, Starting From Zero, at the end of Chapter 4, with a fifth chapter following it. Finishing it returns you to free-roam, unlocks the 100% checklist, and leaves everything the platinum needs still open.",
+   "guide": "An automatic story trophy, and the only hidden gold on the list. It pops on the final main mission of the story — the last mission before the credits. Finishing it drops you back into free-roam, reveals the 100% checklist, and leaves everything the platinum needs still open, so nothing about the ending can lock you out.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -126,7 +126,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 2 main mission Breakfast Run — just follow the story. PowerPyx lists it as a Chapter 2 mission trophy, so it comes naturally while you play through that chapter.",
+   "guide": "An automatic story trophy. It pops during Breakfast Run, a Chapter 2 main mission — just follow the story and it comes to you. PowerPyx lists it as a Chapter 2 mission trophy, so expect it while you play through that chapter.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -142,7 +142,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 3 main mission The Cartel Heist. There is nothing to prepare for it — play the mission when the story offers it and the trophy follows.",
+   "guide": "An automatic story trophy. It pops during The Cartel Heist, a Chapter 3 main mission. There is nothing to prepare for it — play the mission when the story offers it and the trophy follows on its own.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -158,7 +158,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 4 main mission Child's Play. Like every mission trophy, it is automatic — the only thing to watch in Chapter 4 is the optional mission That's Where The Money Is…, which opens the bank-vault robberies used by Maximum Withdrawal and A Classic Blitz Play.",
+   "guide": "An automatic story trophy. It pops during Child's Play, a Chapter 4 main mission. Like every mission trophy it needs no preparation — the one thing worth noticing in Chapter 4 is the optional mission That's Where The Money Is…, which opens the bank-vault robberies used by Maximum Withdrawal and A Classic Blitz Play.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -174,7 +174,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 4 main mission Headliners. Play the mission when it comes up in the story; no side content or preparation feeds into it.",
+   "guide": "An automatic story trophy. It pops during Headliners, a Chapter 4 main mission. Play the mission when it comes up in the story; no side content or preparation feeds into it.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -190,7 +190,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 4 main mission VCIA Takedown, at Vice City International Airport. Do not confuse it with Catch Me If You Can, the free-roam trophy for stealing a passenger jet from the same airport — that one you do on your own time, after the story if you like.",
+   "guide": "An automatic story trophy. It pops during VCIA Takedown, a Chapter 4 main mission set at Vice City International Airport. Do not mix it up with Catch Me If You Can, the free-roam trophy for stealing a passenger jet from the same airport — that one is yours to do on your own time, after the story if you like.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -206,7 +206,7 @@
    "kind": "story",
    "missable": false,
    "stage": 1,
-   "guide": "Story trophy, cannot be missed. It pops during the Chapter 5 main mission Operation Savage Glory. It is one of the last story trophies you will earn, and after it the story wraps up and the whole map opens for cleanup.",
+   "guide": "An automatic story trophy. It pops during Operation Savage Glory, a Chapter 5 main mission. It is one of the last story trophies you will earn, and once it is done the story wraps up and the whole map opens for cleanup.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -223,7 +223,7 @@
    "missable": false,
    "stage": 5,
    "count": 100,
-   "guide": "The hardest trophy on the list, and the last one most players earn. The 100% checklist unlocks after the story under Progress, then Stats, then 100% Completion — but progress you make during the story already counts. It is far more forgiving than it sounds: PowerPyx puts it at roughly 60% true completion, with most side quests not required and collectibles only partly required. The binding parts are the robberies, underwater discoveries, shooting ranges, drone races and Bret's quests, which need everything, plus any 70 of the 80 challenges, 200 of 277 vehicles scanned, 100 of 255 animals studied, 50 of 66 weapons and 300 stunts. Nothing on the checklist is missable, so work through it in free-roam after the story.",
+   "guide": "The hardest trophy on the list, and usually the last one earned. The 100% checklist unlocks after the story under Progress, then Stats, then 100% Completion — but progress made during the story already counts. It is far more forgiving than it sounds: PowerPyx puts it near 60% true completion, with most side quests not required and collectibles only partly required. The binding parts are the robberies, underwater discoveries, shooting ranges, drone races and Bret's quests, which need everything, plus any 70 of the 80 challenges, 200 of 277 vehicles scanned, 100 of 255 animals studied, 50 of 66 weapons and 300 stunts. Nothing on the checklist is missable, so work through it in free-roam after the story.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -241,7 +241,7 @@
    "missable": false,
    "stage": 3,
    "count": 250,
-   "guide": "Complete any 250 of the 397 stunts across Leonida — you can mix the four kinds however you like. PowerPyx breaks them down as 130 stunt jumps over ramps, 202 under-the-bridges flights, 40 knife flights between buildings and 25 base jumps by parachute, and calls the bridge flights the quickest to farm. Track them by region under Progress, then Activities, then Stunts, or on the map under Exploration, then Stunt Spots, where each completed stunt stays marked. The 100% checklist wants 300, so keep going past 250 and this trophy lands on the way.",
+   "guide": "Finish any 250 of the 397 stunts across Leonida — the four kinds can be mixed however you like. PowerPyx breaks them down as 130 stunt jumps over ramps, 202 under-the-bridges flights, 40 knife flights between buildings and 25 base jumps by parachute, and calls the bridge flights the quickest to farm. Track them by region under Progress, then Activities, then Stunts, or on the map under Exploration, then Stunt Spots, where each completed stunt stays marked. The 100% checklist wants 300, so keep going past 250 and this trophy lands on the way.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -258,7 +258,7 @@
    "missable": false,
    "stage": 3,
    "count": 9,
-   "guide": "The trophy tracker counts 9 types of activity, and you need one of each: fishing, hunting, golf, shooting ranges, pool, basketball, playing a video game, winning a car race, race challenge or Top Fun drone race, and performing a stunt. Check your count under the touchpad menu, then Progress, then Activities — scrolling over each type shows how many you have done. Most of them come automatically from the story and from working on the other activity trophies, and the map's Activities filter (the blue dumbbell icon) marks where each one lives.",
+   "guide": "The tracker counts 9 activity types, and you need one of each: fishing, hunting, golf, shooting ranges, pool, basketball, playing a video game, winning a car race, race challenge or Top Fun drone race, and performing a stunt. Check your count under the touchpad menu, then Progress, then Activities — scrolling over each type shows how many you have done. Most of them come automatically from the story and from working on the other activity trophies, and the map's Activities filter (the blue dumbbell icon) marks where each one lives.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -462,7 +462,7 @@
    "missable": true,
    "stage": 1,
    "count": 18,
-   "guide": "THE ONE TROPHY THAT CAN BE MISSED. There are 18 meditation spots across 10 locations, and you can meditate with both Jason and Lucia at each one, which counts double. The catch is the first one: during Chapter 1, at Jason's house, Lucia talks about meditating in the morning after the mission Down to Earth, walks out to the balcony, and if you talk to her and choose Accept she shows you how to meditate. That home meditation is gone for good once Chapter 1 ends. PowerPyx, which earned the trophy after doing it, still cannot confirm whether it is required — it raises the progress counter by 1 but is not marked as a meditation spot like the rest — so do it to be safe. The other 17 spots are all still there after the story, though the last one needs both characters playable together, which opens after Chapter 2's Coffee Break. Track them under Progress, then Collections, then Exploration, then Meditations. Note: the 100% checklist only asks for 15 of 18, so the missable one cannot cost you A Long Road.",
+   "guide": "The one trophy that can be missed. There are 18 meditation spots across 10 locations, and you can meditate with both Jason and Lucia at each one, which counts double. The catch is the first one: during Chapter 1, at Jason's house, Lucia talks about meditating in the morning after the mission Down to Earth, walks out to the balcony, and if you talk to her and choose Accept she shows you how to meditate. That home meditation is gone for good once Chapter 1 ends. PowerPyx, which earned the trophy after doing it, still cannot confirm whether it is required — it raises the progress counter by 1 but is not marked as a meditation spot like the rest — so do it to be safe. The other 17 spots are all still there after the story, though the last one needs both characters playable together, which opens after Chapter 2's Coffee Break. Track them under Progress, then Collections, then Exploration, then Meditations. Note: the 100% checklist only asks for 15 of 18, so the missable one cannot cost you A Long Road.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -732,7 +732,8 @@
    "kind": "exploration",
    "missable": false,
    "stage": 4,
-   "guide": "NOT YET CONFIRMED — no guide has pinned the exact trigger down. The description says it all: enjoy a cocktail with a view on Ocean Beach. The sensible read is to find a bar or cocktail spot overlooking Ocean Beach and order a drink there, most likely in free-roam after the story. PowerPyx and GTA Zone both list this trophy as currently unknown, so treat any specific spot you read elsewhere as unconfirmed until a guide verifies it — this guide will say so rather than invent a location.",
+   "confirmed": false,
+   "guide": "No guide has pinned the exact trigger down yet. The description says it all: enjoy a cocktail with a view on Ocean Beach. The sensible read is to find a bar or cocktail spot overlooking Ocean Beach and order a drink there, most likely in free-roam after the story. PowerPyx and GTA Zone both list this trophy as currently unknown, so treat any specific spot you read elsewhere as unconfirmed until a guide verifies it — this guide says so rather than inventing a location.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -749,7 +750,8 @@
    "kind": "crime",
    "missable": false,
    "stage": 4,
-   "guide": "NOT YET CONFIRMED — no guide has pinned the exact trigger down. The description points to driving a car out through a vehicle showroom's window, in the style of the classic GTA showroom smash. GTA Zone notes the same reading as unconfirmed. Try it at a car dealership showroom in free-roam: get a car inside the showroom and drive it out through the glass. If it does not pop, the trigger is a specific showroom or a specific car, and no published guide has named it yet.",
+   "confirmed": false,
+   "guide": "No guide has pinned the exact trigger down yet. The description points to driving a car out through a vehicle showroom's window, in the style of the classic GTA showroom smash. GTA Zone notes the same reading as unconfirmed. Try it at a car dealership showroom in free-roam: get a car inside the showroom and drive it out through the glass. If it does not pop, the trigger is a specific showroom or a specific car, and no published guide has named it yet.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -818,7 +820,8 @@
    "kind": "crime",
    "missable": false,
    "stage": 4,
-   "guide": "NOT YET CONFIRMED — no guide has pinned the exact trigger down. The description, Second time's the charm, suggests succeeding at something on a second attempt. PowerPyx believes it is related to the Payday Loans store from the prologue, but that is a belief, not a verified trigger. The honest advice is to play through the Payday Loans content and retry anything you fail the first time; until a guide verifies the trigger, treat every specific claim about it as unconfirmed.",
+   "confirmed": false,
+   "guide": "No guide has pinned the exact trigger down yet. The description, Second time's the charm, suggests succeeding at something on a second attempt. PowerPyx believes it is related to the Payday Loans store from the prologue, but that is a belief, not a verified trigger. The honest advice is to play through the Payday Loans content and retry anything you fail the first time; until a guide verifies the trigger, treat every specific claim about it as unconfirmed.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -835,7 +838,8 @@
    "kind": "exploration",
    "missable": false,
    "stage": 4,
-   "guide": "NOT YET CONFIRMED — no guide has pinned the exact trigger down. The description, What the hell just happened?, reads like a strange-encounter trophy, and PowerPyx believes it is tied to a UFO questline. If that lead holds, it will be a stranger-style quest chain somewhere in Leonida that ends with something unexplained — but no published guide has verified the chain or its location yet, so explore the stranger quests and watch for anything strange rather than hunting a spot nobody has named.",
+   "confirmed": false,
+   "guide": "No guide has pinned the exact trigger down yet. The description, What the hell just happened?, reads like a strange-encounter trophy, and PowerPyx believes it is tied to a UFO questline. If that lead holds, it will be a stranger-style quest chain somewhere in Leonida that ends with something unexplained — but no published guide has verified the chain or its location yet, so explore the stranger quests and watch for anything strange rather than hunting a spot nobody has named.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },
@@ -852,7 +856,8 @@
    "kind": "combat",
    "missable": false,
    "stage": 4,
-   "guide": "NOT YET CONFIRMED — no guide has pinned the exact trigger down. The description, Bowl 'em over with a melee drive-by, points to knocking enemies down with a melee attack while driving past them, and PowerPyx believes it is about kicking enemies while riding a motorcycle. The working method is to ride a bike through a group of enemies and kick them as you pass; if it does not pop, the trigger may need a specific weapon or a specific number of enemies in one pass, which no published guide has verified yet.",
+   "confirmed": false,
+   "guide": "No guide has pinned the exact trigger down yet. The description, Bowl 'em over with a melee drive-by, points to knocking enemies down with a melee attack while driving past them, and PowerPyx believes it is about kicking enemies while riding a motorcycle. The working method is to ride a bike through a group of enemies and kick them as you pass; if it does not pop, the trigger may need a specific weapon or a specific number of enemies in one pass, which no published guide has verified yet.",
    "sources": [
     { "label": "Exophase — official list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
     { "label": "PSNProfiles — official list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" },

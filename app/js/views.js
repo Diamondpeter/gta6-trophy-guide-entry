@@ -1,5 +1,7 @@
 // Renders every view of the guide: the checklist with its detail pane, the
-// roadmap, the missables page, the Next-up planner and the save page.
+// roadmap, the missables page, the Next-up planner and the save page. A trophy
+// whose trigger no published guide has verified yet carries confirmed: false in
+// the data, and the detail pane says so instead of guessing.
 import { KIND_LABELS, STAGES, stageTrophies } from './data.js';
 import { applyFilters, countByGrade, isSpoilerHidden, nextUp } from './filters.js';
 
@@ -32,6 +34,16 @@ export function renderChecklist(state, actions) {
     `Showing ${visible.length} of ${state.trophies.length} trophies` +
     (state.spoilerSafe && hiddenCount ? ` · spoiler-safe is on: ${hiddenCount} story trophies hidden until earned` : '') +
     (state.earned.size ? ` · ${state.earned.size} earned` : '');
+  const emptyNote = document.getElementById('emptyNote');
+  if (visible.length === 0) {
+    emptyNote.hidden = false;
+    emptyNote.textContent = state.kind === 'online'
+      ? 'No online trophies — the official list has none, so the whole platinum is earnable offline in a single playthrough.'
+      : 'No trophies match these filters. Clear the search or pick another kind or grade.';
+  } else {
+    emptyNote.hidden = true;
+    emptyNote.textContent = '';
+  }
   list.replaceChildren();
   for (const t of visible) {
     const li = document.createElement('li');
@@ -98,7 +110,7 @@ export function renderDetail(state, actions) {
     warn.innerHTML = '<strong>Missable — read this first.</strong> This is the only trophy in the game that can be missed. See the guide below before you finish Chapter 1.';
     pane.append(warn);
   }
-  if (/NOT YET CONFIRMED/.test(t.guide)) {
+  if (t.confirmed === false) {
     const unknown = document.createElement('p');
     unknown.className = 'unknown';
     unknown.innerHTML = '<strong>Not yet confirmed.</strong> No published guide has verified this trophy’s exact trigger. This guide says so rather than inventing a location.';
@@ -108,7 +120,7 @@ export function renderDetail(state, actions) {
   guideHeading.textContent = 'How to get it';
   const guide = document.createElement('p');
   guide.className = 'guide-text';
-  guide.textContent = t.guide.replace(/^NOT YET CONFIRMED — /, '');
+  guide.textContent = t.guide;
   const sourcesHeading = document.createElement('h3');
   sourcesHeading.textContent = 'Sources';
   const sources = document.createElement('ul');
@@ -181,7 +193,7 @@ export function renderMissables(state, actions) {
     const name = document.createElement('h3');
     name.textContent = `⚠ ${t.name} — ${t.description}`;
     const guide = document.createElement('p');
-    guide.textContent = t.guide.replace(/^THE ONE TROPHY THAT CAN BE MISSED\. /, '');
+    guide.textContent = t.guide;
     const open = document.createElement('button');
     open.type = 'button';
     open.textContent = 'Open the full guide';

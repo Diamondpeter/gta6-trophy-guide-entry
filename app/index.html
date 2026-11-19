@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Leonida Platinum — the offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI: checklist, roadmap, missables and a cited guide to each.">
 <title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%23d24e2a'/%3E%3Ctext%20x='16'%20y='22'%20font-family='Georgia,serif'%20font-size='16'%20font-weight='bold'%20fill='%23ffffff'%20text-anchor='middle'%3ELP%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
@@ -42,6 +44,7 @@
       <option value="crime">Crime</option>
       <option value="combat">Combat</option>
       <option value="money">Money</option>
+      <option value="online">Online</option>
       <option value="platinum">Platinum</option>
       <option value="missable">Missable</option>
     </select>
@@ -61,9 +64,11 @@
 <p class="demo-note" id="demoNote" hidden>Demo progress — 13 trophies pre-earned to show the tracker. Your saved progress is untouched; close this tab or open without <code>?demo=1</code> to see your own.</p>
 
 <main id="main">
+  <noscript><p class="empty-note">This guide needs JavaScript: it is a checklist and tracker, so it runs its own code in your browser and loads nothing from the network.</p></noscript>
   <section class="layout" id="checklistLayout">
     <div class="list-wrap">
       <p class="list-meta" id="listMeta"></p>
+      <p class="empty-note" id="emptyNote" hidden></p>
       <ul class="trophy-list" id="trophyList"></ul>
     </div>
     <aside class="detail" id="detail" aria-live="polite"></aside>
@@ -73,7 +78,7 @@
 
 <footer class="foot">
   <p><strong>Sources.</strong> Trophy names, descriptions and grades are the official list as published on <a href="https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/">Exophase</a> and <a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi">PSNProfiles</a>. Every guide is written in our own words for this entry and cites its sources beside it; where no guide has pinned a trigger down yet, the guide says so. No Rockstar logo or official artwork is used anywhere.</p>
-  <p>Works offline — this page loads nothing from the network. Progress is saved in this browser only (localStorage) and can be exported from the Save &amp; export tab. Difficulty, times and the missable warning follow <a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/">PowerPyx's trophy guide</a> and <a href="https://gta-zone.com/news/gta-6-trophies-achievements/">GTA Zone's trophy list</a>.</p>
+  <p>Works offline — this page loads nothing from the network. Progress is saved in this browser only (localStorage) and can be exported from the Save &amp; export tab. Difficulty, times and the missable warning follow <a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/">PowerPyx's trophy guide</a> and <a href="https://gta-zone.com/news/gta-6-trophies-achievements/">GTA Zone's trophy list</a>. The official list has no online trophies, so the Online filter shows none.</p>
 </footer>
 
 <script type="module" src="js/main.js"></script>

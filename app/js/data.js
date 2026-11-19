@@ -1,6 +1,7 @@
 // Loads the official trophy list and its guides from app/data/trophies.json.
 // Every name, description and grade in that file is the official list as
-// published on Exophase and PSNProfiles; the guides are this entry's own words.
+// published on Exophase and PSNProfiles; the guides are this entry's own words,
+// and each one names the sources its facts come from.
 export async function loadTrophies() {
   const response = await fetch('data/trophies.json');
   if (!response.ok) throw new Error('Could not load data/trophies.json');
@@ -17,9 +18,13 @@ export const KIND_LABELS = {
   crime: 'Crime',
   combat: 'Combat',
   money: 'Money',
+  online: 'Online',
   platinum: 'Platinum',
 };
 
+// The five roadmap stages, in the order to play them. The hours and the
+// difficulty (4 out of 10, about 200 hours) are PowerPyx's; the stage each
+// trophy sits in comes from its official description.
 export const STAGES = [
   { n: 1, title: 'Play the story', hours: '60–80 hours', blurb: 'Finish the five chapters and take optional missions as they appear. Scan vehicles and study animals on the way — that progress already counts toward the 100% checklist. Do the Chapter 1 meditation at Jason’s house before the chapter ends: it is the one thing in the game that can be missed.' },
   { n: 2, title: 'Side characters & strangers', hours: 'Alongside the story', blurb: 'Finish the questlines for Andy, Kenton, Billy, Randy, Tyrone and Bret, plus 8 Strangers & Freaks strands. Every one of them stays open after the story, so nothing here is missable — but doing them as they appear teaches you the game’s systems.' },

@@ -1,6 +1,7 @@
 // Saved progress: which trophies are earned and the reader's own notes, kept in
 // localStorage so the checklist survives closing the browser. Export writes the
-// same data as a JSON file; import reads one back. Nothing leaves the browser.
+// same data as a JSON file; import reads one back and keeps only trophy ids the
+// list actually holds. Nothing leaves the browser.
 const PROGRESS_KEY = 'leonida-platinum-progress-v1';
 const NOTES_KEY = 'leonida-platinum-notes-v1';
 
@@ -17,7 +18,7 @@ export function loadProgress() {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY);
     const ids = raw ? JSON.parse(raw) : [];
-    return new Set(Array.isArray(ids) ? ids : []);
+    return new Set(Array.isArray(ids) ? ids.filter((id) => Number.isInteger(id) && id >= 1 && id <= 55) : []);
   } catch {
     return new Set();
   }
@@ -44,6 +45,7 @@ export function saveNotes(notes) {
 export function exportProgress(earned, notes) {
   const payload = {
     app: 'Leonida Platinum — GTA VI trophy tracker',
+    version: 1,
     exportedAt: new Date().toISOString(),
     earned: [...earned].sort((a, b) => a - b),
     notes: Object.fromEntries(notes),
@@ -60,7 +62,9 @@ export function exportProgress(earned, notes) {
 export async function importProgressFile(file) {
   const text = await file.text();
   const data = JSON.parse(text);
-  const earned = new Set(Array.isArray(data.earned) ? data.earned : data);
+  const rawEarned = Array.isArray(data.earned) ? data.earned : data;
+  if (!Array.isArray(rawEarned)) throw new Error('not a progress export');
+  const earned = new Set(rawEarned.filter((id) => Number.isInteger(id) && id >= 1 && id <= 55));
   const notes = new Map(Object.entries(data.notes ?? {}));
   return { earned, notes };
 }

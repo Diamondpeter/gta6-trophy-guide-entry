@@ -2,6 +2,7 @@
 // spoiler rule. A trophy is spoiler-hidden when the spoiler setting is on, the
 // trophy is hidden on PlayStation, and it has not been earned yet — its name and
 // description stay hidden until the reader earns it (or turns the setting off).
+// The official list holds no online trophies, so the online kind matches none.
 export function isSpoilerHidden(trophy, earned, spoilerSafe) {
   return spoilerSafe && trophy.hidden && !earned.has(trophy.id);
 }
@@ -11,6 +12,8 @@ export function applyFilters(trophies, state) {
   return trophies.filter((t) => {
     if (state.kind === 'missable') {
       if (!t.missable) return false;
+    } else if (state.kind === 'online') {
+      return false;
     } else if (state.kind !== 'all' && t.kind !== state.kind) {
       return false;
     }

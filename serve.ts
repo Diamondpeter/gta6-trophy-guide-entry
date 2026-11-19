@@ -1,8 +1,9 @@
 // A tiny static server for app/ (Node 22, standard library only), so the guide
 // can be tried locally without a build step: `node serve.ts` serves app/ on
 // http://localhost:8080 (`--port <n>` for another port). It sends the MIME types
-// a browser needs, refuses any path outside app/, and otherwise does nothing
-// clever: this is a development convenience, not a web server for the internet.
+// a browser needs, answers HEAD as well as GET, refuses any path outside app/,
+// and otherwise does nothing clever: this is a development convenience, not a
+// web server for the internet.
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';
@@ -23,6 +24,10 @@ const MIME = {
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
+  '.svg': 'image/svg+xml',
+  '.webp': 'image/webp',
+  '.ico': 'image/x-icon',
+  '.woff2': 'font/woff2',
 };
 
 createServer((request, response) => {
@@ -54,7 +59,11 @@ createServer((request, response) => {
     'content-length': size,
     'cache-control': 'no-store',
   });
+  if (request.method === 'HEAD') {
+    response.end();
+    return;
+  }
   createReadStream(file).pipe(response);
-}).listen(port, () => {
+}).listen(port, '127.0.0.1', () => {
   console.log(`Leonida Platinum at http://localhost:${port}/ (try ?demo=1 for seeded progress)`);
 });
